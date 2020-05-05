@@ -1,0 +1,82 @@
+#businessInfo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#imgWrapper {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#businessImgContainer {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#businessContent {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+#businessFooter {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+#businessName {
+  text-align: left;
+}
+
+#reviews {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+#reviews .dataList {
+  overflow-y: auto;
+}
+#reviews h4 {
+  text-align: left;
+}
+/* Reviews */
+
+.review {
+  display: flex;
+}
+
+.reviewImgContainer {
+  width: 150px;
+  height: 150px;
+}
+
+.reviewUserImg {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reviewContent {
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.userName,
+.userReview {
+  text-align: left;
+}
